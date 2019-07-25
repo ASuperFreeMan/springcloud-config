@@ -34,8 +34,9 @@ info:
   app:
     name: ELS
     company.name: www.yuantu.com
-    build.artifactId: $project.artifactId$
-    info.build.version=$project.version$
+    build: 
+      artifactId: $project.artifactId$
+      version: $project.version$
 
 ---
 server:
@@ -69,5 +70,6 @@ info:
   app:
     name: ELS
     company.name: www.yuantu.com
-    build.artifactId: $project.artifactId$
-    info.build.version=$project.version$
+    build: 
+      artifactId: $project.artifactId$
+      version: $project.version$
